@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<title>{{{ title }}}</title>
+		<!-- Bootstrap Core CSS -->
+		<link href="{{{base_url}}}/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+		<link href="{{{base_url}}}/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="{{{base_url}}}/css/animate.css" rel="stylesheet" />
+		<link href="{{{base_url}}}/css/style.css" rel="stylesheet">
+		<link href="{{{base_url}}}/color/default.css" rel="stylesheet">
+		<!-- Jquery Library -->
+		<script src="{{{base_url}}}/js/jquery.min.js"></script>
+		<!-- AngularJS Library -->
+		<script src="{{{base_url}}}/js/angular.min.js"></script>
+		<!-- AngularJS Route Library -->
+		<script src="{{{base_url}}}/js/angular-route.min.js"></script>
+		
+	</head>
+
+	<body id="page-top" data-spy="scroll" data-target=".navbar-custom" ng-app="SquadFreeModel" ng-controller="SquadFreeController">
+		<!-- Preloader -->
+		<div id="preloader">
+		  <div id="load"></div>
+		</div>
+
+		<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header page-scroll">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+						<i class="fa fa-bars"></i>
+					</button>
+					<a class="navbar-brand" href="{{ base_url }}">
+						<h1>SQUAD FREE</h1>
+					</a>
+				</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+				  <ul class="nav navbar-nav">
+					<li class="active"><a href="#intro">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#service">Service</a></li>
+					<li id="ContactUS"><a href="#contact">Contact</a></li>
+				  </ul>
+				</div>
+				<!-- /.navbar-collapse -->
+			</div>
+			<!-- /.container -->
+		</nav>
+		
+		{{{ body }}}
+		
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 col-lg-12">
+						<div class="wow shake" data-wow-delay="0.4s">
+						<div class="page-scroll marginbot-30">
+							<a href="#intro" id="totop" class="btn btn-circle">
+								<i class="fa fa-angle-double-up animated"></i>
+							</a>
+						</div>
+						</div>
+						<p>&copy;SquadFREE. All rights reserved.</p>
+						<div class="credits">
+							<!-- 
+								All the links in the footer should remain intact. 
+								You can delete the links only if you purchased the pro version.
+								Licensing information: https://bootstrapmade.com/license/
+								Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Squadfree
+							-->
+							<a href="https://bootstrapmade.com/free-one-page-bootstrap-themes-website-templates/">One Page Bootstrap Themes</a> by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</footer>
+		
+		<!-- Core JavaScript Files -->
+		<script src="{{{base_url}}}/js/bootstrap.min.js"></script>
+		<script src="{{{base_url}}}/js/jquery.easing.min.js"></script>	
+		<script src="{{{base_url}}}/js/jquery.scrollTo.js"></script>
+		<script src="{{{base_url}}}/js/wow.min.js"></script>
+		<script src="{{{base_url}}}/js/custom.js"></script>
+		<!--<script src="contactform/contactform.js"></script>-->
+		
+	</body>
+
+</html>

@@ -1,0 +1,11 @@
+{
+  "name": "squadfree_handlebars",
+  "version": "1.0.0",
+  "description": "squad free template using handlebars",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Manmohan Singh Rawat",
+  "license": "ISC"
+}
